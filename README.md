@@ -50,17 +50,18 @@ http://localhost:3000/
 ```
 
 📁 Project Structure
-
+```bash
 src/
-├── components/ # React components
-│ ├── Board.tsx # Game board
-│ ├── GameInfo.tsx # Game information
-│ ├── ScoreHistory.tsx # Score history
-│ └── Square.tsx # Square component
-├── types/ # TypeScript types
-│ └── game.ts # Type definitions
-├── utils/ # Utility functions
-│ └── gameLogic.ts # Winner calculation logic
-├── constants/ # Constants
-│ └── game.ts # Game constants
-└── App.tsx # Main component
+├── components/         # React components
+│ ├── Board.tsx         # Game board
+│ ├── GameInfo.tsx      # Game information
+│ ├── ScoreHistory.tsx  # Score history
+│ └── Square.tsx        # Square component
+├── types/              # TypeScript types
+│ └── game.ts           # Type definitions
+├── utils/              # Utility functions
+│ └── gameLogic.ts      # Winner calculation logic
+├── constants/          # Constants
+│ └── game.ts           # Game constants
+└── App.tsx             # Main component
+```
